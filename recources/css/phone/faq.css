@@ -152,6 +152,7 @@
         font-size: 16px;
         font-weight: 600;
         transition: 0.4s;
+        color:black;
     }
     
     .active, .accordion:hover {
@@ -169,6 +170,7 @@
         display: none;
         overflow: hidden;
         line-height: 1.6;
+        color:black;
     }
 
     /* legal */
