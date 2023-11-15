@@ -12,7 +12,7 @@
     /* ------banner------ */
 
     #banner {
-        background-color:#ffcb3b;
+        background-color:#ffddd6;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -49,9 +49,9 @@
     }
 
     #home{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
-        padding: 1vh 4vh;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
+        padding: 1vh;
         border-radius: 1.5vh;
         margin-right: 8vh;
         /* font-family: 'Mulish', sans-serif; */
@@ -59,7 +59,7 @@
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -68,16 +68,16 @@
     }
 
     #gallery{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
-        padding: 1vh 4vh;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
+        padding: 1vh;
         border-radius: 1.5vh;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -86,17 +86,17 @@
     }
 
     #faq{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
-        padding: 1vh 4vh;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
+        padding: 1vh;
         border-radius: 1.5vh;
         margin-left: 8vh;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -115,7 +115,7 @@
     }
 
     #Condition-Guideline h1{
-        color:#eb5449;
+        color:#869f77;
         text-align: center;
         font-size: 25px;
         margin-bottom: 3vh;
@@ -128,7 +128,7 @@
     h3{
         margin-bottom: 2vh;
         font-size: 18px;
-        color:#fa594a
+        color:#869f77;
     }
 
     ol {

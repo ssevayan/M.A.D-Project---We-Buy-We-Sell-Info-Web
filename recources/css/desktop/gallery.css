@@ -11,11 +11,7 @@ body{
 /* ------banner------ */
 
 #banner {
-    background-color:#ffcb3b;
-    /* background-image: url(../../media/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;*/
+    background-color:#ffddd6;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -27,17 +23,17 @@ body{
 #logo{
     display: flex;
     justify-content: space-around;
-    margin: 2.5vh;
+    margin: 2vh;
 }
 
 #logo #short {
     align-self: center;
-    width: 16%;
+    width: 12%;
 }
 
 #logo #long {
-    align-self: center;
-    margin-left: 3vh;
+    align-self:center;
+    margin-left: 1vh;
     width: 70%;
 }
 
@@ -49,8 +45,8 @@ body{
 }
 
 #home{
-    border: 1px solid #fbefe3;
-    background-color: #fbefe3;
+    border: 1.5px solid #fff3f3;
+    background-color: #fff3f3;
     padding: 1vh;
     border-radius: 1.5vh;
     margin-right: 30px;
@@ -59,7 +55,7 @@ body{
     font-size: 17px;
     font-weight: 600;
     text-decoration: none;
-    color:#eb5449;
+    color:#588061;
     transition: all .5s ease-in-out;
 }
 
@@ -68,35 +64,35 @@ body{
 }
 
 #condition{
-    border: 1px solid #fbefe3;
-    background-color: #fbefe3;
+    border: 1.5px solid #fff3f3;
+    background-color: #fff3f3;
     padding: 1vh;
     border-radius: 1.5vh;
-    margin-right: 30px;
     /* font-family: 'Mulish', sans-serif; */
     font-family: 'Roboto Slab', serif;
     font-size: 17px;
     font-weight: 600;
     text-decoration: none;
-    color:#eb5449;
+    color:#588061;
     transition: all .5s ease-in-out;
 }
 
-#condition:hover {
+#condition:hover{
     transform: scale(1.1);
 }
 
 #faq{
-    border: 1px solid #fbefe3;
-    background-color: #fbefe3;
+    border: 1.5px solid #fff3f3;
+    background-color: #fff3f3;
     padding: 1vh;
     border-radius: 1.5vh;
+    margin-left: 30px;
     /* font-family: 'Mulish', sans-serif; */
     font-family: 'Roboto Slab', serif;
     font-size: 17px;
     font-weight: 600;
     text-decoration: none;
-    color:#eb5449;
+    color:#588061;
     transition: all .5s ease-in-out;
 }
 
@@ -114,7 +110,7 @@ body{
 }
 
 #gallery-example h1{
-    color:#eb5449;
+    color:#869f77;
     font-family: 'Roboto Slab', serif;
     text-align: center;
     font-size: 45px;
@@ -130,7 +126,7 @@ body{
 #gallery-image-container img{
     width: 50vh;
     height: auto;
-    border: 1.1vh solid #ffcb3b;
+    border: 1.1vh solid #f1b6ac;
     margin: 2vh;
 }
 

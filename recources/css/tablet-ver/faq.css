@@ -9,10 +9,10 @@
         background-color: #fbefe3;
     }
 
-    /* ------banner------ */
+   /* ------banner------ */
 
-    #banner {
-        background-color:#ffcb3b;
+   #banner {
+        background-color:#ffddd6;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -49,17 +49,17 @@
     }
 
     #home{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 6vh;
+        margin-right: 8vh;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -68,17 +68,16 @@
     }
 
     #condition{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 0;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -87,17 +86,17 @@
     }
 
     #gallery{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-left: 6vh;
+        margin-left: 8vh;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -116,7 +115,7 @@
     }
 
     #faq h1{
-        color:#eb5449;
+        color:#869f77;
         text-align: center;
         font-size: 25px;
     }
@@ -136,12 +135,12 @@
     }
 
     .accordion {
-        background-color: #ffe48b;
+        background-color: #ffddd6;
         font-family: 'Roboto Slab', serif;
         cursor: pointer;
         padding: 12px;
         width: 100%;
-        border: 3px solid #ffbe0b;
+        border: 3px solid #f1b6ac;
         border-radius: 1.5vh;
         text-align: left;
         font-size: 18px;
@@ -151,7 +150,7 @@
     }
     
     .active, .accordion:hover {
-        background-color: #ffd037; 
+        background-color: #ffc7bc; 
     }
     
     .panel {
@@ -160,7 +159,7 @@
         font-weight: 600;
         font-family: 'Roboto Slab', serif;
         background-color: #fbefe3;
-        border: 3px solid #ffbe0b;
+        border: 3px solid #f1b6ac;
         border-radius: 2vh;
         display: none;
         overflow: hidden;
@@ -175,7 +174,7 @@
         margin-bottom: 1.5vh;
         display: flex;
         justify-content: center;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     #legal a{

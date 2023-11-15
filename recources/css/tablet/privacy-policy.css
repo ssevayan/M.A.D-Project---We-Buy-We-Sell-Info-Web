@@ -8,11 +8,10 @@
     body{
         background-color: #fbefe3;
     }
-
     /* ------banner------ */
 
     #banner {
-        background-color:#ffcb3b;
+        background-color:#ffddd6;
         display: flex;
         justify-content: space-between;
         align-content: center;
@@ -38,25 +37,25 @@
     }
 
     #menu{
-        /* border: 1px solid red;  */
+        /* border: 1px solid red; */
         display: flex;
         align-self: none;
         justify-content: space-between;
-        margin-right: 2.5vh;
+        margin-right: 4vh;
     }
 
     #home{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
-        padding: 0.9vh;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
+        padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 12px;
+        margin-right: 15px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -65,17 +64,17 @@
     }
 
     #condition{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
-        padding: 0.9vh;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
+        padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 12px;
+        margin-right: 15px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -84,16 +83,16 @@
     }
 
     #gallery{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
-        padding: 0.9vh;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
+        padding: 1vh;
         border-radius: 1.5vh;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -102,17 +101,17 @@
     }
 
     #faq{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
-        padding: 0.9vh;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
+        padding: 1vh;
         border-radius: 1.5vh;
-        margin-left: 12px;
+        margin-left: 15px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -132,7 +131,7 @@
     }
 
     #content h1{
-        color:#eb5449;
+        color:#869f77;
         text-align: center;
         font-size: 28px;
         margin-bottom: 3vh;

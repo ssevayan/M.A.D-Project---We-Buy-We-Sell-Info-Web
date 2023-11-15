@@ -8,7 +8,7 @@
     /* ------banner------ */
 
     #banner {
-        background-color:#ffcb3b;
+        background-color:#ffddd6;
         display: flex;
         justify-content: space-between;
         align-content: center;
@@ -34,7 +34,7 @@
     }
 
     #menu{
-        /* border: 1px solid red;  */
+        /* border: 1px solid red; */
         display: flex;
         align-self: none;
         justify-content: space-between;
@@ -42,17 +42,17 @@
     }
 
     #condition{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 4vh;
+        margin-right: 30px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
         font-size: 17px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -61,8 +61,8 @@
     }
 
     #gallery{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
         /* font-family: 'Mulish', sans-serif; */
@@ -70,7 +70,7 @@
         font-size: 17px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -79,17 +79,17 @@
     }
 
     #faq{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-left: 4vh;
+        margin-left: 30px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
         font-size: 17px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -99,52 +99,89 @@
 
     /* ------title------ */
 
-    #title{
-        background-image: url(../../media/title.jpeg);
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.64);
+    #main-top{
+        background-image: url(../../media/main-back.jpg);
+        box-shadow: inset 0 0 0 1000px #fbefe3c1;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        padding: 15vh;
+        padding: 13vh 3vh;
         position: relative;
-        z-index: 0;
+        z-index: -1;
         top: 0;
+        display: flex;
+    }
+
+    #title-image-container{
+        width:100%;
+    }
+
+    #title-image-left{
+        /* border:2px solid black; */
+        width:100%;
+    }
+
+    #title-image-right{
+        /* border:2px solid black; */
+        width: 100%;
+    }
+
+    #title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 2vh;
     }
 
     #title h1{
-        font-family: 'Mulish', sans-serif;
+        font-family: 'Roboto Slab', serif;
         font-weight: 800;
         margin-bottom: 10vh;
         text-align: center;
-        font-size: 35px;
-        color:#ffdd68;
+        font-size: 28px;
+        color:#588061;
+        line-height: 1.4;
     }
 
     #title h3{
         font-family: 'Roboto Slab', serif;
-        font-weight: 400;
-        margin-bottom: 5vh;
+        font-weight: 600;
         text-align: center;
         font-size: 18px;
-        color:#ffbcb3;
-        word-spacing: 3px;
-        line-height: 1.6;
+        color:#759264;
+        word-spacing: 2px;
+        line-height: 1.4;
+    }
+
+    #main-bottom{
+        background-color: #fbefe3;
+    }
+
+    #main-banner{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 0 ;
+        margin: 0;
     }
 
     /* ------gallery------ */
 
     #gallery-example{
         background-color: #fbefe3;
-        padding-top: 3vh;
-        padding-bottom: 3.5vh;
+        padding-top: 6vh;
+        padding-bottom: 8vh;
     }
 
     #gallery-example h1{
-        color:#eb5449;
+        color:#869f77;
         font-family: 'Roboto Slab', serif;
         text-align: center;
         font-size: 28px;
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
     }
 
     #gallery-image-container{
@@ -154,70 +191,69 @@
     }
 
     #gallery-image-container img{
-        width: 40vh;
+        width: 35vh;
         height: auto;
-        border: 1.1vh solid #ffcb3b;
+        border: 1.1vh solid #869f77;
         margin: 2vh;
     }
 
     /* ------find us------ */
     #find-us{
-        background-color: #ffe17d;
-        padding-top: 4vh;
-        padding-bottom: 3.5vh;
+        background-color: #ffddd6;
+        padding-top: 6vh;
+        padding-bottom: 8vh;
         font-family: 'Roboto Slab', serif;
     }
 
     #find-us h1{
-        color:#eb5449;
+        color:#869f77;
         text-align: center;
         font-size: 28px;
-        margin-bottom: 1vh;
+        margin-bottom: 5vh;
     }
 
     #find-us h3{
-        padding-left: 2vh;
-        padding-right: 2vh;
-        margin: 2.5vh;
+        margin: 2vh;
         text-align: center;
         font-size: 18px;
     }
 
     #find-us ol{
         text-align: center;
+        line-height: 2;
     }
 
     #find-us a{
         text-decoration: underline;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
         margin: 2vh;
-        color:#c92e23;
-        line-height: 2.1;
+        color:#588061;
+        line-height: 2.5;
     }
 
     #find-us a:hover{
-        color:#eb5449;
+        color:#869f77;
         text-decoration: underline;
     }
 
     /* ------contact us------ */
     #contact-us{
         background-color: #fbefe3;
-        padding-top: 4vh;
+        padding-top: 6vh;
         padding-bottom: 2vh;
         font-family: 'Roboto Slab', serif;
     }
 
     #contact-us h1{
-        color:#eb5449;
+        color:#869f77;
         text-align: center;
         font-size: 28px;
-        margin-bottom: 1vh;
+        margin-bottom: 5vh;
     }
 
     #contact-us h3{
-        margin: 2vh;
+        margin-bottom: 8vh;
         text-align: center;
         font-size: 18px;
     }
@@ -225,15 +261,13 @@
     #icons {
         display: flex;
         justify-content: space-between;
-        max-width: 200px; /* Adjust as needed */
-        margin: 6vh auto; /* Adjust as needed */
-        padding-top: 2vh;
-        padding-bottom: 4vh;
+        max-width: 300px; /* Adjust as needed */
+        margin: 5vh auto; /* Adjust as needed */
     }
 
     #icons a i {
-        font-size: 28px; /* Adjust as needed */
-        color: #eb5449;
+        font-size: 25px; /* Adjust as needed */
+        color: #869f77;
         transition: all .3s ease-in-out;
     }
 
@@ -248,7 +282,7 @@
         margin-bottom: 0.5vh;
         display: flex;
         justify-content: center;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     #legal a{

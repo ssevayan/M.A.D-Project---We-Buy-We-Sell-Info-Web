@@ -12,7 +12,7 @@
     /* ------banner------ */
 
     #banner {
-        background-color:#ffcb3b;
+        background-color:#ffddd6;
         display: flex;
         justify-content: space-between;
         position: fixed;
@@ -24,39 +24,39 @@
     #logo{
         display: flex;
         justify-content: space-around;
-        margin: 2vh;
+        margin: 1.5vh;
     }
 
     #logo #short {
         align-self: center;
-        width: 16%;
+        width: 12%;
     }
 
     #logo #long {
-        align-self: center;
-        margin-left: 3vh;
-        width: 70%;
+        align-self:center;
+        margin-left: 1vh;
+        width: 65%;
     }
 
     #menu{
         /* border: 1px solid red; */
         display: flex;
         align-self: center;
-        margin-right: 3vh;
+        margin-right: 5vh;
     }
-
+    
     #home{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 20px;
+        margin-right: 25px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -65,17 +65,17 @@
     }
 
     #condition{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 20px;
+        margin-right: 25px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -84,16 +84,16 @@
     }
 
     #gallery{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -102,17 +102,17 @@
     }
 
     #faq{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1.5px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-left: 20px;
+        margin-left: 25px;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -132,7 +132,7 @@
     }
 
     #content h1{
-        color:#eb5449;
+        color:#869f77;
         text-align: center;
         font-size: 38px;
         margin-bottom: 2vh;

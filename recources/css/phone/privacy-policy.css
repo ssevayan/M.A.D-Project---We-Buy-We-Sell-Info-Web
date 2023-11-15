@@ -12,7 +12,7 @@
     /* ------banner------ */
 
     #banner {
-        background-color:#ffcb3b;
+        background-color:#ffddd6;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -50,8 +50,8 @@
     }
 
     #home{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1.5vh 11vh;
         border-radius: 1.5vh;
         margin-right: 0;
@@ -62,7 +62,7 @@
         font-weight: 600;
         text-decoration: none;
         text-align: center;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -70,9 +70,10 @@
         transform: scale(1.1);
     }
 
+
     #condition{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1.5vh 11vh;
         border-radius: 1.5vh;
         margin-right: 0;
@@ -83,7 +84,7 @@
         font-weight: 600;
         text-decoration: none;
         text-align: center;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -92,8 +93,8 @@
     }
 
     #gallery{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1.5vh 11vh;
         border-radius: 1.5vh;
         margin-right: 0;
@@ -103,7 +104,7 @@
         font-weight: 600;
         text-decoration: none;
         text-align: center;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -112,8 +113,8 @@
     }
 
     #faq{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1.5vh 11vh;
         border-radius: 1.5vh;
         margin-left: 0;
@@ -123,13 +124,14 @@
         font-weight: 600;
         text-decoration: none;
         text-align: center;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
     #faq:hover{
         transform: scale(1.1);
     }
+
 
     /* ------content------ */
     #content{
@@ -143,7 +145,7 @@
     }
 
     #content h1{
-        color:#eb5449;
+        color:#869f77;
         text-align: center;
         font-size: 25px;
         margin-bottom: 4vh;

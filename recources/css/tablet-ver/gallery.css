@@ -10,10 +10,10 @@
         background-color: #fbefe3;
     }
 
-    /* ------banner------ */
+   /* ------banner------ */
 
     #banner {
-        background-color:#ffcb3b;
+        background-color:#ffddd6;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -50,8 +50,8 @@
     }
 
     #home{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
         margin-right: 8vh;
@@ -60,7 +60,7 @@
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -69,17 +69,16 @@
     }
 
     #condition{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
-        margin-right: 0;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -88,17 +87,17 @@
     }
 
     #faq{
-        border: 1px solid #fbefe3;
-        background-color: #fbefe3;
+        border: 1px solid #fff3f3;
+        background-color: #fff3f3;
         padding: 1vh;
         border-radius: 1.5vh;
         margin-left: 8vh;
         /* font-family: 'Mulish', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 600;
         text-decoration: none;
-        color:#eb5449;
+        color:#588061;
         transition: all .5s ease-in-out;
     }
 
@@ -116,7 +115,7 @@
     }
 
     #gallery-example h1{
-        color:#eb5449;
+        color:#869f77;
         font-family: 'Roboto Slab', serif;
         text-align: center;
         font-size: 28px;
@@ -132,7 +131,7 @@
     #gallery-image-container img{
         width: 35vh;
         height: auto;
-        border: 1.1vh solid #ffcb3b;
+        border: 1.1vh solid #f1b6ac;
         margin: 2vh;
     }
 
