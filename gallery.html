@@ -22,17 +22,29 @@
     <title>Gallery</title>
 </head>
 <body>
-    <div id="banner">
-        <div id="logo">
-            <img id="short" src="./recources/media/logo1.png" alt="WBA Logo">
-            <img id="long" src="./recources/media/logo2.png" alt="WeBuyAnime Logo">
+    <!-- banner -->
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">                
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="overlay"></div>
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>  
+                <div class="logo">
+                    <!-- <img id="short" src="./recources/media/logo.png" alt="WBA Logo"> -->
+                    <img id="long" src="./recources/media/logo2.png" alt="WeBuyAnime Logo">
+                </div>
+                <div class="menu-items">
+                    <li><a id="home" href="./index.html">Home</a></li>
+                    <li><a id="condition" href="./condition-guideline.html">Condition Guideline</a></li>
+                    <li><a id="faq" href="./faq.html">FAQ</a></li>
+                </div>
+            </div>
         </div>
-        <div id="menu">
-            <a id="home" href="./index.html">Home</a>
-            <a id="condition" href="./condition-guideline.html">Condition Guideline</a>
-            <a id="faq" href="./faq.html">FAQ</a>
-        </div>
-    </div>
+    </nav>
 
     <div id="gallery-example">
         <h1>Gallery</h1>
@@ -58,7 +70,6 @@
 
     <!-- legal -->
     <div id="legal">
-        <a href="./privacy-policy.html"><p>Privacy Policy</p></a>
         <a href="./terms-of-service.html"><p>Terms of Service</p></a>
     </div>
 </body>
