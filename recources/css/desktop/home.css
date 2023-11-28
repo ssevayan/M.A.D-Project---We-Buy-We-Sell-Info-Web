@@ -271,18 +271,10 @@
     font-size: 45px;
 }
 
-#find-us h3{
-    margin: 2vh 8vh;
-    text-align: center;
-}
-
-#find-us #line1{
-    padding-bottom: 2vh;
-    font-size: 20px;
-}
-
 #find-us #line2{
     font-size: 18px;
+    margin: 2vh 8vh;
+    text-align: center;
 }
 
 
