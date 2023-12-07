@@ -29,7 +29,7 @@
     }
 
     .logo {
-        padding-left: 40%;
+        padding-left: 12vh;
     }
 
     .logo img{
@@ -66,16 +66,12 @@
 
     /* ------find us------ */
     #find-us-container img{
-        width: 10vh;
+        width: 20rem;
     }
 
     #find-us h1{
         padding-top: 1vh;
         font-size: 28px;
-    }
-
-    #find-us #line2{
-        font-size: 16px;
     }
 
     /* ------contact us------ */

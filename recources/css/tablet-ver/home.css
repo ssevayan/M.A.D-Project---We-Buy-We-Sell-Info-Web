@@ -65,17 +65,13 @@
 
     /* ------find us------ */
     #find-us-container img{
-        width: 10vh;
+        width: 25rem;
         padding-left: 2vh;
     }
 
     #find-us h1{
         padding-top: 1.5vh;
         font-size: 25px;
-    }
-
-    #find-us #line2{
-        font-size: 16px;
     }
 
     /* ------contact us------ */

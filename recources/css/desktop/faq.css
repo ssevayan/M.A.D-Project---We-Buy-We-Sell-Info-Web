@@ -224,7 +224,7 @@ body{
 /* legal */
 #legal{
     font-family: 'Roboto Slab', serif;
-    margin-top: 5vh;
+    margin-top: 50vh;
     margin-bottom: 1vh;
     display: flex;
     justify-content: center;

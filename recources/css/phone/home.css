@@ -83,7 +83,7 @@
 
     #gallery-example{
         padding-top: 3vh;
-        padding-bottom: 2vh;
+        padding-bottom: 4vh;
     }
 
     #gallery-example h1{
@@ -97,27 +97,14 @@
     }
 
     /* ------find us------ */
-    #find-us{
-        padding-top: 4vh;
-        padding-bottom: 4vh;
-    }
 
     #find-us-container img{
-        width: 6vh;
-        padding-left: 1vh;
+        width: 15rem;
     }
 
     #find-us h1{
         padding-top: 1vh;
         font-size: 25px;
-    }
-
-    #find-us #line2{
-        padding-left: 2vh;
-        padding-right: 2vh;
-        margin: 0 1.5vh;
-        text-align: center;
-        font-size: 16px;
     }
 
     /* ------contact us------ */

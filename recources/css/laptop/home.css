@@ -75,8 +75,9 @@
         font-size: 38px;
     }
 
-    #find-us #line2{
-        font-size: 16px;
+    #find-us-container img{
+        width: 25rem;
+        height: auto;
     }
 
     /* ------contact us------ */
